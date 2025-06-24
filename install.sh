@@ -32,13 +32,9 @@ dnf copr enable atim/heroic-games-launcher
 ##### INSTALL PACKAGES #####
 dnf install \
   @"base-x" \
-  @"Common NetworkManager Submodules" \
-  @"Fonts" \
-  @"Hardware Support" \
   bluedevil \
   breeze-gtk \
   breeze-icon-theme \
-  cagibi \
   colord-kde \
   cups-pk-helper \
   dolphin \
@@ -56,15 +52,12 @@ dnf install \
   kdnssd \
   kf5-akonadi-server \
   kf5-akonadi-server-mysql \
-  kf5-baloo-file \
   kf5-kipi-plugins \
-  khotkeys \
   kmenuedit \
   konsole5 \
   kscreen \
   kscreenlocker \
   ksshaskpass \
-  ksysguard \
   kwalletmanager5 \
   kwebkitpart \
   kwin \
