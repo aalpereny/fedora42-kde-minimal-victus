@@ -4,6 +4,8 @@ if ! [ $(id -u) = 0 ]; then
   exit 1
 fi
 
+dnf update --refresh
+
 ##### ENABLE RPM-FUSION #####
 dnf install \
     https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm \
