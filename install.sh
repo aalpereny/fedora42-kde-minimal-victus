@@ -121,6 +121,8 @@ while true; do
     fi
 done
 
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
 ##### SET USER PERMS #####
 usermod -aG render,video $USER
 
